@@ -1,0 +1,16 @@
+{
+  "synthetic_example": true,
+  "score": 90,
+  "derived_score": 90,
+  "score_consistent": true,
+  "scores_breakdown": {
+    "recall_deduction": 0,
+    "binding_deduction": 0,
+    "fidelity_deduction": -10
+  },
+  "missing_entities": [],
+  "reasoning": "两个主体及属性均存在，背景正确，主体B身份与参考图略有差异。",
+  "subjects": ["subject_a", "subject_b"],
+  "background": "background_scene",
+  "method": "vlm_rubric"
+}

@@ -1,0 +1,4 @@
+concept_id	modifier_token	class_word	instance_prompt	dataset_dir	final_classdiffusion_weight_path	final_personalized_weight_path	multicompose_final_weight_path
+subject_a	<subject_a>	object	Photo of a <subject_a> object.	/path/to/datasets/subject_a	/path/to/checkpoints/subject_a.bin	/path/to/checkpoints/subject_a.bin	/path/to/checkpoints/subject_a.bin
+subject_b	<subject_b>	object	Photo of a <subject_b> object.	/path/to/datasets/subject_b	/path/to/checkpoints/subject_b.bin	/path/to/checkpoints/subject_b.bin	/path/to/checkpoints/subject_b.bin
+background_scene	<background_scene>	scene	Photo of a <background_scene> scene.	/path/to/datasets/background_scene	/path/to/checkpoints/background_scene.bin	/path/to/checkpoints/background_scene.bin	/path/to/checkpoints/background_scene.bin

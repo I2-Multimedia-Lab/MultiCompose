@@ -1,0 +1,28 @@
+{
+  "synthetic_example": true,
+  "method": "traditional_dino_clip_pair",
+  "identity_model": "facebook/dinov2-base",
+  "binding_model": "openai/clip-vit-base-patch32",
+  "subjects": ["subject_a", "subject_b"],
+  "attributes": ["crown", "jacket"],
+  "background": "background_scene",
+  "boxes": [[80, 180, 500, 980], [540, 180, 960, 980]],
+  "identity": {
+    "subject_a": 0.82,
+    "subject_b": 0.78,
+    "background": 0.75,
+    "minimum": 0.75,
+    "average": 0.783333,
+    "score": 0.76
+  },
+  "binding": {
+    "global_prompt": 0.79,
+    "correct_a": 0.84,
+    "correct_b": 0.8,
+    "swapped_a": 0.55,
+    "swapped_b": 0.5,
+    "confusion_penalty": 0,
+    "score": 0.7975
+  },
+  "final_score": 0.775
+}
