@@ -1,4 +1,4 @@
-# MultiCompose: Multi-Concept Personalized Composition with Per-Subject Attribute Binding
+# MultiCompose: Multi-Concept Personalized Composition with Per-Subject Attribute Binding (ACM MM2026)
 
 Official implementation of **MultiCompose**, a framework for composing multiple personalized subjects while binding user-specified attributes to the correct subject.
 
